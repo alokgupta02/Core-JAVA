@@ -16,7 +16,7 @@ public class FibonacciSeries {
 
 	public static void main(String[] args) {
 		try {
-			findFibonacci(100);
+			findFibonacci(10);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

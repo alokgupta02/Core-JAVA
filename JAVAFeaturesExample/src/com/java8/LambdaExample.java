@@ -15,13 +15,13 @@ interface Name {
 public class LambdaExample {
 
 	public static void main(String[] args) {
-		
+
 		Shape s1 = () -> System.out.println("Shape1 draw() method");
 		// s.draw();
 
 		// Shape s2 = () -> System.out.println("Shape draw() method");
 
-		//TwoNum add = (a, b) -> (a + b);
+		// TwoNum add = (a, b) -> (a + b);
 		// System.out.println("Addition is : " +add.num(10, 5));
 
 		// mentioning data type
@@ -46,7 +46,7 @@ public class LambdaExample {
 
 		// passing object that contains lambda expression as a method parameter
 		print(s1);
-		//passing lambda expression as parameter
+		// passing lambda expression as parameter
 		print(() -> System.out.println("Shape2 draw() method"));
 		addition((a, b) -> (a + b));
 

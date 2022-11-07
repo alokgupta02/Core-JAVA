@@ -12,16 +12,15 @@ public class ConstructorExample {
 	/**
 	 * @param args
 	 */
-	String abc;
+	String def;
 	String name;
 	int num;
 
 	// overriding default constructor
-	ConstructorExample() {
-		abc="abc";
-		System.out.println("Hi..");
-		System.out.println(abc);
-	}
+	/*
+	 * ConstructorExample() { def = "Default Constructor Initialized";
+	 * System.out.println(def); }
+	 */
 
 	// paremeterized constructor
 	ConstructorExample(String naam, int n) {
@@ -43,15 +42,17 @@ public class ConstructorExample {
 
 	public static void main(String[] args) {
 
-		//ConstructorExample c = new ConstructorExample("alok", 33);
-		ConstructorExample c1 = new ConstructorExample();
-		//c.display();
-		
-		//passing object as parameter
-		ConstructorExample obj1 = new ConstructorExample("abc", 10);
-		ConstructorExample obj2 = new ConstructorExample("abc", 1);
+		// ConstructorExample c = new ConstructorExample("alok", 33);
+		// ConstructorExample c1 = new ConstructorExample();
+		// c1.display();
 
-		System.out.println("Checking equal.. " + obj1.equalTo(obj2));
+		// passing object as parameter
+		// ConstructorExample obj1 = new ConstructorExample();
+		// System.out.println(obj1.num + obj1.name);
+		// ConstructorExample obj2 = new ConstructorExample("abc", 1);
+		// obj1.display();
+
+		// System.out.println("Checking equal.. " + obj1.equalTo(obj2));
 
 	}
 
