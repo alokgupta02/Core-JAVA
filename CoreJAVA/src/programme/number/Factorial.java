@@ -15,6 +15,6 @@ public class Factorial {
 	}
 
 	public static void main(String[] args) {
-		factorial(4);
+		factorial(5);
 	}
 }

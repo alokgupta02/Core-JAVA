@@ -17,7 +17,7 @@ public class ReverseNumber {
 	}
 
 	public static void main(String[] args) {
-
+		//System("cls");
 		reverseNumber(354163546);
 
 	}

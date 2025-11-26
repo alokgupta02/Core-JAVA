@@ -13,7 +13,7 @@ public class Aggregation {
 		}
 
 		void display(){
-			System.out.println("Employee Details: ");
+			System.out.println("EmployeeMphasis Details: ");
 			System.out.println("Name: "+name);
 			System.out.println("ID: "+id);
 			System.out.println("City: "+ag1.City);
